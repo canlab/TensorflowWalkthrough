@@ -51,7 +51,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 
 
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-# Fit data to be between 0 and 1 (tradition, saves tons of time with very little loss)
+# Fit data to be between 0 and 1
 train_images = train_images / 255.0
 
 print(train_images)
